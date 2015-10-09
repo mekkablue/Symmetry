@@ -17,6 +17,12 @@ After installation, it will add the menu item *View > Show Symmetry*. You can se
 1. Open a glyph in Edit View.
 2. Use *View > Symmetry* to toggle the preview of the instances.
 
+### Related
+
+Symmetry mirrors the glyph around its vertical central axis. If you want a rotated view, try Mark Frömberg’s Show Rotated plugin [from his Plugins repository](https://github.com/DeutschMark/Glyphsapp-Plugins).
+
+Both Symmetry and Show Rotated only *display* the glyph in a different way, they do not change your paths. But if you want to turn path segments symmetric, check out Tim Ahrens’ Symmetrify script [in his Glyphs Scripts repository on GitHub](https://github.com/justanotherfoundry/glyphsapp-scripts). Or you can use the *Paths > Distribute Nodes* scripts [in my Scripts repository](https://github.com/mekkablue/Glyphs-Scripts).
+
 ### Requirements
 
 The plugin needs Glyphs 2.2 or higher, running on OS X 10.9.5 or later. I only test it in current OS and app versions, and I assume it will work in older app versions too, but I cannot guarantee it.
