@@ -4,7 +4,7 @@ This is a plugin for the [Glyphs font editor](http://glyphsapp.com/) by Georg Se
 
 ![Uppercase G from T-Star by Binnenland.](Symmetry.png "Show Symmetry")
 
-After installation, it will add the menu item *View > Show Symmetry*. You can set a keyboard shortcut in System Preferences.
+After installation, it will add the menu item *View > Show Symmetry*. You can set a keyboard shortcut in System Preferences. You can chang vertical and horizontal mirroring through the context menu.
 
 ### Installation
 
@@ -16,16 +16,17 @@ After installation, it will add the menu item *View > Show Symmetry*. You can se
 
 1. Open a glyph in Edit View.
 2. Use *View > Symmetry* to toggle the preview of the instances.
+3. Right-click to access the context menu and choose *Toggle Horizontal Flip*, or *Toggle Vertical Flip*, respectively, to adjust the way the  mirroring.
 
 ### Related
 
-Symmetry mirrors the glyph around its vertical central axis. If you want a rotated view, try Mark Frömberg’s Show Rotated plugin [from his Plugins repository](https://github.com/DeutschMark/Glyphsapp-Plugins).
+Symmetry mirrors the glyph around its horizontal and/or vertical central axis (depending on what you set via the context menu, see Usage Instructions, step 3). If all you want is a rotated view, try Mark Frömberg’s *Show Rotated* plugin [from his Plugins repository](https://github.com/DeutschMark/Glyphsapp-Plugins).
 
 Both Symmetry and Show Rotated only *display* the glyph in a different way, they do not change your paths. But if you want to turn path segments symmetric, check out Tim Ahrens’ Symmetrify script [in his Glyphs Scripts repository on GitHub](https://github.com/justanotherfoundry/glyphsapp-scripts). Or you can use the *Paths > Distribute Nodes* scripts [in my Scripts repository](https://github.com/mekkablue/Glyphs-Scripts).
 
 ### Requirements
 
-The plugin needs Glyphs 2.2 or higher, running on OS X 10.9.5 or later. I only test it in current OS and app versions, and I assume it will work in older app versions too, but I cannot guarantee it.
+The plugin needs Glyphs 2.3 or higher, running on OS X 10.9.5 or later. This plugin will not work in older versions of the app.
 
 ### License
 
