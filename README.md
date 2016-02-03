@@ -28,6 +28,8 @@ Both Symmetry and Show Rotated only *display* the glyph in a different way, they
 
 The plugin needs Glyphs 2.3 or higher, running on OS X 10.9.5 or later. This plugin will not work in older versions of the app.
 
+For app versions older than 2.3, there is a file called `Symmetry_old.glyphsReporter` in this repository. I will not update the old version anymore, though.
+
 ### License
 
 Copyright 2015 Rainer Erich Scheichelbauer (@mekkablue).
