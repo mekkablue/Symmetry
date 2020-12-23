@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
@@ -16,18 +16,12 @@
 	<string>Symmetry</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
-	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
-	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/mekkablue/Symmetry/master/Symmetry.glyphsReporter/Contents/Info.plist</string>
-	<key>productPageURL</key>
-	<string>https://github.com/mekkablue/Symmetry</string>
-	<key>productReleaseNotes</key>
-	<string>Update for 2.3+, dropped backwards compatibility.</string>
+	<string>4</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
@@ -88,5 +82,11 @@
 			<string>0.6.3</string>
 		</dict>
 	</dict>
+	<key>UpdateFeedURL</key>
+	<string>https://raw.githubusercontent.com/mekkablue/Symmetry/master/Symmetry.glyphsReporter/Contents/Info.plist</string>
+	<key>productPageURL</key>
+	<string>https://github.com/mekkablue/Symmetry</string>
+	<key>productReleaseNotes</key>
+	<string>update binary files for Glyphs3</string>
 </dict>
 </plist>
